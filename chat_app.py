@@ -7,12 +7,12 @@ MODEL_PRIORITY = ["gpt-4o-mini", "gpt-4o", "gpt-3.5-turbo"]
 
 # Streamlit page config
 st.set_page_config(
-    page_title="Cohort 2 Ask !! Me",
+    page_title="Ask !! Me",
     page_icon="💬",
     layout="wide"
 )
 
-st.title("💬 Cohort 2 Ask !! Me")
+st.title("💬 Ask !! Me")
 st.markdown("🚀 Chat with fallback API keys.")
 
 # Password-masked API keys input
